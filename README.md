@@ -2,6 +2,8 @@
 
 React + TypeScript + Vite, Supabase Auth и PostgreSQL. Отдельного сервера приложения нет.
 
+Работающее приложение: [https://objects-tasks-crm-rust.vercel.app](https://objects-tasks-crm-rust.vercel.app). Тестовые доступы передаются отдельно.
+
 ## Локальный запуск
 
 Нужны Bun и работающий Docker. Первый запуск Supabase скачивает несколько контейнеров и может занять время.
