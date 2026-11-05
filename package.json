@@ -1,0 +1,31 @@
+{
+  "name": "objects-tasks-crm",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "test": "bun test",
+    "seed": "bun scripts/seed.ts",
+    "test:security": "bun test tests/security.test.ts tests/status-matrix.test.ts"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "@supabase/supabase-js": "^2.81.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vite": "^7.2.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/bun": "latest",
+    "supabase": "latest",
+    "eslint": "^9.39.0",
+    "typescript-eslint": "^8.46.0",
+    "@eslint/js": "^9.39.0",
+    "globals": "^16.5.0"
+  }
+}
