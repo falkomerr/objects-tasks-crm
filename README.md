@@ -2,7 +2,17 @@
 
 React + TypeScript + Vite, Supabase Auth и PostgreSQL. Отдельного сервера приложения нет.
 
-Работающее приложение: [https://objects-tasks-crm-rust.vercel.app](https://objects-tasks-crm-rust.vercel.app). Тестовые доступы передаются отдельно.
+Работающее приложение: [https://objects-tasks-crm-rust.vercel.app](https://objects-tasks-crm-rust.vercel.app).
+
+## Тестовые доступы
+
+Аккаунты для демонстрационной версии по ссылке выше. В базе подготовлены три объекта и 15 задач в разных статусах.
+
+| Роль | Email | Пароль |
+|---|---|---|
+| Постановщик | manager@objects-tasks-crm.example | `OfEDrHrm3TOQuPfepgbp6aWn` |
+| Исполнитель 1 | worker1@objects-tasks-crm.example | `2H0H17hl-F9DLRes9lhfnf_n` |
+| Исполнитель 2 | worker2@objects-tasks-crm.example | `AYXIZCgdhif81VjupaHQKfrd` |
 
 ## Локальный запуск
 
